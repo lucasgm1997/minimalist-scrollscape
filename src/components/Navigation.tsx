@@ -1,3 +1,4 @@
+
 import { cn } from "@/lib/utils";
 
 interface NavigationProps {
@@ -6,7 +7,7 @@ interface NavigationProps {
 }
 
 export function Navigation({ activeSection, onNavigate }: NavigationProps) {
-  const sections = ["Home", "Features", "About"];
+  const sections = ["Section 1", "Section 2", "Section 3"];
 
   return (
     <nav className="fixed left-4 top-1/2 -translate-y-1/2 z-50">
